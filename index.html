@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>铝镁锰板_铝镁锰合金屋面_彩涂铝卷厂家 | Magnum Metal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E3A8A',
+            secondary: '#64748B',
+            accent: '#0EA5E9',
+            dark: '#0F172A',
+            light: '#F8FAFC'
+          },
+          fontFamily: {
+            inter: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.35);
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(30, 58, 138, 0.15);
+      }
+      .section-padding {
+        padding: clamp(60px, 8vw, 100px) 0;
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #0EA5E9, #1E3A8A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .lang-en { display: none; }
+      .lang-zh { display: block; }
+    }
+  </style>
+</head>
+<body class="font-inter text-gray-700 bg-light antialiased">
+
+  <!-- 导航 -->
+  <header class="fixed w-full z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-xl">M</div>
+        <div>
+          <div class="text-dark font-bold text-lg">MAGNUM METAL</div>
+          <div class="text-[10px] text-gray-500 tracking-widest">ALUMINUM MAGNESIUM MANGANESE</div>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+        <a href="#home" class="hover:text-primary transition-colors"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a>
+        <a href="#about" class="hover:text-primary transition-colors"><span class="lang-zh">关于我们</span><span class="lang-en">About Us</span></a>
+        <a href="#products" class="hover:text-primary transition-colors"><span class="lang-zh">产品中心</span><span class="lang-en">Products</span></a>
+        <a href="#applications" class="hover:text-primary transition-colors"><span class="lang-zh">工程应用</span><span class="lang-en">Applications</span></a>
+        <a href="#contact" class="hover:text-primary transition-colors"><span class="lang-zh">联系我们</span><span class="lang-en">Contact</span></a>
+        <!-- 语言切换按钮 -->
+        <button id="langSwitch" class="border border-primary px-3 py-1 rounded text-primary hover:bg-primary hover:text-white transition">
+          <span id="langText">English</span>
+        </button>
+      </nav>
+
+      <a href="#contact" class="hidden md:inline-flex items-center px-5 py-2.5 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+        <span class="lang-zh">获取报价</span><span class="lang-en">Get Quotation</span>
+      </a>
+
+      <button id="menuBtn" class="md:hidden text-gray-700">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- 移动端菜单 -->
+    <div id="mobileMenu" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="container mx-auto px-6 py-4 flex flex-col gap-4 text-sm">
+        <a href="#home" class="py-2 hover:text-primary"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a>
+        <a href="#about" class="py-2 hover:text-primary"><span class="lang-zh">关于我们</span><span class="lang-en">About Us</span></a>
+        <a href="#products" class="py-2 hover:text-primary"><span class="lang-zh">产品中心</span><span class="lang-en">Products</span></a>
+        <a href="#applications" class="py-2 hover:text-primary"><span class="lang-zh">工程应用</span><span class="lang-en">Applications</span></a>
+        <a href="#contact" class="py-2 hover:text-primary"><span class="lang-zh">联系我们</span><span class="lang-en">Contact</span></a>
+        <button id="mobileLangSwitch" class="border border-primary px-3 py-1 rounded text-primary w-fit">
+          <span id="mobileLangText">English</span>
+        </button>
+        <a href="#contact" class="mt-2 inline-flex items-center justify-center px-5 py-2.5 bg-primary text-white rounded-lg">
+          <span class="lang-zh">获取报价</span><span class="lang-en">Get Quotation</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section id="home" class="relative min-h-screen flex items-center pt-20">
+    <div class="absolute inset-0 bg-gradient-to-br from-dark via-primary/90 to-dark opacity-95"></div>
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
+    
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-sm mb-6">
+          <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+          <span class="lang-zh">高端铝镁锰屋面系统解决方案</span>
+          <span class="lang-en">Premium Al-Mg-Mn Roofing System Solution</span>
+        </div>
+        
+        <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight text-white mb-6 text-shadow">
+          <span class="lang-zh">铝镁锰合金板材<br/>为大型建筑屋面而生</span>
+          <span class="lang-en">Al-Mg-Mn Alloy Sheets<br/>For Large Building Roofs</span>
+        </h1>
+        
+        <p class="text-[clamp(1rem,2vw,1.25rem)] text-white/70 leading-relaxed mb-8 max-w-2xl">
+          <span class="lang-zh">专注铝镁锰彩涂卷、3003 / 3105铝基板、直立锁边压型板生产，服务高铁站、机场、会展中心、厂房与体育馆等高端屋面工程。</span>
+          <span class="lang-en">Specialized in Al-Mg-Mn prepainted coil, 3003/3105 aluminum substrate & standing seam panels. Supply for high-end projects: railway stations, airports, exhibition centers, factories & stadiums.</span>
+        </p>
+        
+        <div class="flex flex-wrap gap-4">
+          <a href="#products" class="px-8 py-3.5 bg-white text-primary font-semibold rounded-lg hover:bg-gray-50 transition-all shadow-xl">
+            <span class="lang-zh">查看产品</span><span class="lang-en">View Products</span>
+          </a>
+          <a href="#contact" class="px-8 py-3.5 border border-white/30 text-white font-semibold rounded-lg hover:bg-white/10 transition-all">
+            <span class="lang-zh">发送询盘</span><span class="lang-en">Send Inquiry</span>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-6 mt-12 max-w-lg">
+          <div class="text-center">
+            <div class="text-3xl font-bold text-white">15+</div>
+            <div class="text-white/50 text-sm mt-1"><span class="lang-zh">行业经验</span><span class="lang-en">Years Experience</span></div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-white">600+</div>
+            <div class="text-white/50 text-sm mt-1"><span class="lang-zh">工程案例</span><span class="lang-en">Projects</span></div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-white">30+</div>
+            <div class="text-white/50 text-sm mt-1"><span class="lang-zh">出口国家</span><span class="lang-en">Export Countries</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我们 -->
+  <section id="about" class="section-padding bg-white">
+    <div class="container mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="text-sm text-primary font-semibold tracking-widest mb-3">ABOUT US</div>
+          <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-dark mb-6">
+            <span class="lang-zh">专注高端铝镁锰金属屋面材料</span>
+            <span class="lang-en">Premium Al-Mg-Mn Metal Roofing Materials</span>
+          </h2>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            <span class="lang-zh">我们是一家集研发、生产、销售与技术服务于一体的铝镁锰金属材料企业，致力于为全球客户提供稳定、耐候、安全的屋面系统材料。</span>
+            <span class="lang-en">We are an integrated manufacturer of Al-Mg-Mn metal materials, covering R&D, production, sales & technical service. We provide stable, weather-resistant & reliable roofing materials worldwide.</span>
+          </p>
+          <p class="text-gray-600 leading-relaxed mb-6">
+            <span class="lang-zh">主营3003H24、3105H24铝镁锰基板，PVDF氟碳、HDP高耐候聚酯彩涂铝卷，以及直立锁边铝镁锰压型板。产品广泛应用于公共建筑、工业厂房、物流园区、机场、高铁站和体育馆等重点工程。</span>
+            <span class="lang-en">Main products: 3003H24 / 3105H24 Al-Mg-Mn substrate, PVDF & HDP prepainted aluminum coil, standing seam roof panels. Widely used in public buildings, factories, logistics parks, airports, high-speed rail stations and stadiums.</span>
+          </p>
+
+          <div class="grid grid-cols-2 gap-4">
+            <div class="p-5 rounded-xl bg-gray-50 border border-gray-100">
+              <div class="text-primary text-xl mb-2">✓</div>
+              <div class="font-semibold text-dark"><span class="lang-zh">稳定原料</span><span class="lang-en">Stable Raw Material</span></div>
+              <div class="text-sm text-gray-500"><span class="lang-zh">大厂铝坯，板面质量稳定</span><span class="lang-en">High grade aluminum ingot, stable surface quality</span></div>
+            </div>
+            <div class="p-5 rounded-xl bg-gray-50 border border-gray-100">
+              <div class="text-primary text-xl mb-2">✓</div>
+              <div class="font-semibold text-dark"><span class="lang-zh">精密涂层</span><span class="lang-en">Precision Coating</span></div>
+              <div class="text-sm text-gray-500"><span class="lang-zh">PE / HDP / PVDF可选</span><span class="lang-en">PE / HDP / PVDF available</span></div>
+            </div>
+            <div class="p-5 rounded-xl bg-gray-50 border border-gray-100">
+              <div class="text-primary text-xl mb-2">✓</div>
+              <div class="font-semibold text-dark"><span class="lang-zh">外贸出口</span><span class="lang-en">Export Service</span></div>
+              <div class="text-sm text-gray-500"><span class="lang-zh">FOB / EXW / CIF支持</span><span class="lang-en">FOB / EXW / CIF terms</span></div>
+            </div>
+            <div class="p-5 rounded-xl bg-gray-50 border border-gray-100">
+              <div class="text-primary text-xl mb-2">✓</div>
+              <div class="font-semibold text-dark"><span class="lang-zh">技术支持</span><span class="lang-en">Technical Support</span></div>
+              <div class="text-sm text-gray-500"><span class="lang-zh">板型图纸与材质报告</span><span class="lang-en">Profile CAD & Mill Certificate</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="rounded-2xl overflow-hidden shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1504307651254-356805466360?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="铝镁锰板材工厂" class="w-full h-full object-cover">
+          </div>
+          <div class="absolute -bottom-6 -left-6 w-48 h-48 bg-gradient-to-br from-primary to-accent rounded-2xl opacity-20 blur-2xl"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 产品中心 -->
+  <section id="products" class="section-padding bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="text-sm text-primary font-semibold tracking-widest mb-3">PRODUCTS</div>
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-dark mb-4">
+          <span class="lang-zh">产品中心</span>
+          <span class="lang-en">Product Center</span>
+        </h2>
+        <p class="text-gray-600">
+          <span class="lang-zh">提供从铝卷基板、彩涂铝卷到压型屋面板的完整产品体系，支持定制厚度、涂层、宽度与板型。</span>
+          <span class="lang-en">Full product range: aluminum substrate, prepainted coil & roof panels. Custom thickness, coating, width & profile available.</span>
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">铝镁锰彩涂卷产品图</span><span class="lang-en">Al-Mg-Mn Prepainted Coil</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">
+              <span class="lang-zh">铝镁锰彩涂卷</span>
+              <span class="lang-en">Al-Mg-Mn Prepainted Coil</span>
+            </h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">3003 / 3105基材，PVDF氟碳、HDP高耐候聚酯涂层，厚度0.5~2.0mm，适用于高端金属屋面。</span>
+              <span class="lang-en">3003/3105 alloy, PVDF / HDP coating, thickness 0.5~2.0mm, for high-end metal roofing.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">PE Coating</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">HDP</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">PVDF</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">光铝卷产品图</span><span class="lang-en">Bare Aluminum Coil</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">
+              <span class="lang-zh">光铝卷 / 裸铝基板</span>
+              <span class="lang-en">Bare Aluminum Substrate Coil</span>
+            </h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">3003H24、3105H24光铝基板，无涂层，公差稳定，可用于后续压型、开平或二次涂装。</span>
+              <span class="lang-en">3003H24 / 3105H24 bare aluminum, no coating, tight tolerance, for roll forming, cut to length or re-coating.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Alloy 3003</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Alloy 3105</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">H24 Temper</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">直立锁边铝镁锰板产品图</span><span class="lang-en">Standing Seam Panel</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">
+              <span class="lang-zh">直立锁边铝镁锰板</span>
+              <span class="lang-en">Standing Seam Al-Mg-Mn Panel</span>
+            </h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">铝镁锰压型屋面板，65-430 / 400等常用板型，适合大型公共建筑屋面系统。</span>
+              <span class="lang-en">Roll formed Al-Mg-Mn roof panel, common profiles 65-430 / 400, for large public building roofing systems.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Standing Seam</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">YX Panel</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Custom Profile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">彩涂铝平板产品图</span><span class="lang-en">Prepainted Aluminum Flat Sheet</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">
+              <span class="lang-zh">彩涂铝平板</span>
+              <span class="lang-en">Prepainted Aluminum Flat Sheet</span>
+            </h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">彩涂铝板开平与定尺裁切，表面平整，颜色可定制，适用于幕墙、装饰墙面和屋面盖板。</span>
+              <span class="lang-en">CTL prepainted aluminum sheet, smooth surface, custom color, for curtain wall, cladding & roof flashing.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Cut To Length</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Flat Sheet</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Custom Color</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">PPGI / PPGL彩钢板产品图</span><span class="lang-en">PPGI PPGL Steel Coil</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">PPGI / PPGL 彩钢板</h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">镀锌、镀铝锌基板彩涂钢卷，适用于厂房墙面、屋面和围护系统，可与铝镁锰产品配套报价。</span>
+              <span class="lang-en">Prepainted galvanized / galvalume steel coil, for factory wall & roof, can be quoted together with Al-Mg-Mn products.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">PPGI</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">PPGL</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Galvanized</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-100 card-hover">
+          <div class="h-56 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            <span class="lang-zh">屋面配件产品图</span><span class="lang-en">Roof Accessories</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-dark mb-2">
+              <span class="lang-zh">屋面系统配件</span>
+              <span class="lang-en">Roof System Accessories</span>
+            </h3>
+            <p class="text-gray-600 text-sm mb-4">
+              <span class="lang-zh">支座、收边板、泛水板、密封条、固定件等屋面配套附件，提供一站式采购方案。</span>
+              <span class="lang-en">Clips, flashings, edge trims, gaskets & fasteners. One-stop procurement solution.</span>
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Clips</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Flashings</span>
+              <span class="px-3 py-1 bg-blue-50 text-primary rounded-full text-xs">Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工程应用 -->
+  <section id="applications" class="section-padding bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="text-sm text-primary font-semibold tracking-widest mb-3">APPLICATIONS</div>
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-dark mb-4">
+          <span class="lang-zh">工程应用领域</span>
+          <span class="lang-en">Application Fields</span>
+        </h2>
+        <p class="text-gray-600">
+          <span class="lang-zh">铝镁锰屋面材料凭借轻质、耐候、防腐和美观等优势，广泛应用于各类高端建筑场景。</span>
+          <span class="lang-en">Light weight, weather resistance & anti-corrosion, widely adopted for high-end building projects.</span>
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="高铁站屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">高铁站</span><span class="lang-en">High Speed Rail Station</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">大跨度屋面系统</span><span class="lang-en">Long Span Roof System</span></p>
+          </div>
+        </div>
+
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="机场屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">机场</span><span class="lang-en">Airport</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">高耐候屋面方案</span><span class="lang-en">High Weather Resistance Roof</span></p>
+          </div>
+        </div>
+
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="会展中心屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">会展中心</span><span class="lang-en">Exhibition Center</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">公共建筑屋面</span><span class="lang-en">Public Building Roof</span></p>
+          </div>
+        </div>
+
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1565699875403-880585f93131?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="厂房屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">工业厂房</span><span class="lang-en">Industrial Factory</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">大面积屋面围护</span><span class="lang-en">Large Area Roof Envelope</span></p>
+          </div>
+        </div>
+
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1541746972908-5c435e1d7258?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="体育馆屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">体育馆</span><span class="lang-en">Stadium</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">大跨度金属屋面</span><span class="lang-en">Long Span Metal Roof</span></p>
+          </div>
+        </div>
+
+        <div class="group relative rounded-xl overflow-hidden h-64">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="物流园区屋面" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
+          <div class="absolute bottom-5 left-5 text-white">
+            <h4 class="font-bold text-lg"><span class="lang-zh">物流园区</span><span class="lang-en">Logistics Park</span></h4>
+            <p class="text-white/60 text-sm"><span class="lang-zh">仓库与厂房屋面</span><span class="lang-en">Warehouse & Factory Roof</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 优势 -->
+  <section class="section-padding bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="text-sm text-primary font-semibold tracking-widest mb-3">WHY CHOOSE US</div>
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-dark mb-4">
+          <span class="lang-zh">为什么选择我们</span>
+          <span class="lang-en">Why Choose Us</span>
+        </h2>
+        <p class="text-gray-600">
+          <span class="lang-zh">从材料稳定性、交付能力、技术支持到外贸单据，我们为项目全周期提供支撑。</span>
+          <span class="lang-en">Material stability, delivery capacity, technical support & export docs for full project cycle.</span>
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="p-6 bg-white rounded-xl border border-gray-100 text-center card-hover">
+          <div class="w-14 h-14 mx-auto rounded-xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-4">
+            ⚙
+          </div>
+          <h4 class="font-bold text-dark mb-2"><span class="lang-zh">源头工厂</span><span class="lang-en">Direct Factory</span></h4>
+          <p class="text-sm text-gray-600">
+            <span class="lang-zh">自有产线，稳定供货，减少中间环节成本。</span>
+            <span class="lang-en">In-house production, stable supply, competitive price.</span>
+          </p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl border border-gray-100 text-center card-hover">
+          <div class="w-14 h-14 mx-auto rounded-xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-4">
+            📄
+          </div>
+          <h4 class="font-bold text-dark mb-2"><span class="lang-zh">质检资料</span><span class="lang-en">Quality Documents</span></h4>
+          <p class="text-sm text-gray-600">
+            <span class="lang-zh">提供Mill Certificate、TDS、检测报告等技术资料。</span>
+            <span class="lang-en">Mill Certificate, TDS, inspection reports available.</span>
+          </p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl border border-gray-100 text-center card-hover">
+          <div class="w-14 h-14 mx-auto rounded-xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-4">
+            🌍
+          </div>
+          <h4 class="font-bold text-dark mb-2"><span class="lang-zh">外贸出口</span><span class="lang-en">Global Export</span></h4>
+          <p class="text-sm text-gray-600">
+            <span class="lang-zh">支持FOB、EXW、CIF等贸易方式，单据齐全。</span>
+            <span class="lang-en">FOB / EXW / CIF, complete export documents.</span>
+          </p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl border border-gray-100 text-center card-hover">
+          <div class="w-14 h-14 mx-auto rounded-xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-4">
+            📐
+          </div>
+          <h4 class="font-bold text-dark mb-2"><span class="lang-zh">技术服务</span><span class="lang-en">Technical Service</span></h4>
+          <p class="text-sm text-gray-600">
+            <span class="lang-zh">板型图纸、重量核算、施工参考与报价支持。</span>
+            <span class="lang-en">CAD profile, weight calculation, construction guide & quotation.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我们 -->
+  <section id="contact" class="section-padding bg-white">
+    <div class="container mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-12">
+        
+        <div>
+          <div class="text-sm text-primary font-semibold tracking-widest mb-3">CONTACT US</div>
+          <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-dark mb-6">
+            <span class="lang-zh">联系我们</span>
+            <span class="lang-en">Contact Us</span>
+          </h2>
+          <p class="text-gray-600 leading-relaxed mb-8">
+            <span class="lang-zh">无论是国内工程采购还是外贸出口询盘，我们都可以根据您的厚度、合金、涂层、宽度、吨量和交货地点，快速提供详细报价方案。</span>
+            <span class="lang-en">For domestic projects & overseas inquiries. We prepare quotation according to thickness, alloy, coating, width, quantity & destination.</span>
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mt-1">📍</div>
+              <div>
+                <div class="font-semibold text-dark"><span class="lang-zh">公司地址</span><span class="lang-en">Address</span></div>
+                <div class="text-gray-600 text-sm">Shandong Zibo, China</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mt-1">📞</div>
+              <div>
+                <div class="font-semibold text-dark"><span class="lang-zh">联系电话</span><span class="lang-en">Phone</span></div>
+                <div class="text-gray-600 text-sm">138-0000-0000</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mt-1">📧</div>
+              <div>
+                <div class="font-semibold text-dark"><span class="lang-zh">外贸邮箱</span><span class="lang-en">Email</span></div>
+                <div class="text-gray-600 text-sm">sales@magnummetals.com</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mt-1">📋</div>
+              <div>
+                <div class="font-semibold text-dark"><span class="lang-zh">可提供资料</span><span class="lang-en">Available Documents</span></div>
+                <div class="text-gray-600 text-sm">Quotation / PI / CI / PL / Mill Certificate / TDS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+          <h3 class="text-xl font-bold text-dark mb-6"><span class="lang-zh">发送询价</span><span class="lang-en">Send Inquiry</span></h3>
+          <form>
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label class="text-sm text-gray-600 mb-1 block"><span class="lang-zh">您的姓名</span><span class="lang-en">Your Name</span></label>
+                <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/30" placeholder="">
+              </div>
+              <div>
+                <label class="text-sm text-gray-600 mb-1 block"><span class="lang-zh">公司名称</span><span class="lang-en">Company</span></label>
+                <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/30" placeholder="">
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <label class="text-sm text-gray-600 mb-1 block"><span class="lang-zh">联系邮箱 / 电话</span><span class="lang-en">Email / Phone</span></label>
+              <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/30" placeholder="">
+            </div>
+
+            <div class="mb-4">
+              <label class="text-sm text-gray-600 mb-1 block"><span class="lang-zh">需求产品</span><span class="lang-en">Product Required</span></label>
+              <select class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/30 text-gray-700">
+                <option><span class="lang-zh">请选择产品</span><span class="lang-en">Select Product</span></option>
+                <option>Al-Mg-Mn Prepainted Coil</option>
+                <option>Bare Aluminum Substrate Coil</option>
+                <option>Standing Seam Al-Mg-Mn Panel</option>
+                <option>Prepainted Aluminum Flat Sheet</option>
+                <option>PPGI / PPGL Steel Coil</option>
+                <option>Roof System Accessories</option>
+              </select>
+            </div>
+
+            <div class="mb-4">
+              <label class="text-sm text-gray-600 mb-1 block"><span class="lang-zh">规格与采购量</span><span class="lang-en">Spec & Quantity</span></label>
+              <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/30" placeholder="Example: Alloy3003 H24, 0.8mm, PVDF coating, 20MT, destination Qingdao Port"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+              <span class="lang-zh">提交询价</span><span class="lang-en">Submit Inquiry</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部 -->
+  <footer class="bg-dark text-white/70 py-10">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-xl">M</div>
+            <div>
+              <div class="text-white font-bold text-lg">MAGNUM METAL</div>
+              <div class="text-[10px] text-gray-500 tracking-widest">ALUMINUM MAGNESIUM MANGANESE</div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-500 leading-relaxed">
+            <span class="lang-zh">专注铝镁锰合金屋面材料，为大型公共建筑与工业项目提供稳定、耐候、专业的金属屋面解决方案。</span>
+            <span class="lang-en">Specialized in Al-Mg-Mn roofing materials, provide reliable metal roof solutions for large public & industrial projects.</span>
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4"><span class="lang-zh">产品中心</span><span class="lang-en">Products</span></h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li>Al-Mg-Mn Prepainted Coil</li>
+            <li>Bare Aluminum Substrate Coil</li>
+            <li>Standing Seam Al-Mg-Mn Panel</li>
+            <li>Prepainted Aluminum Flat Sheet</li>
+            <li>PPGI / PPGL Steel Coil</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4"><span class="lang-zh">快速链接</span><span class="lang-en">Quick Links</span></h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li><a href="#home" class="hover:text-white"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a></li>
+            <li><a href="#about" class="hover:text-white"><span class="lang-zh">关于我们</span><span class="lang-en">About Us</span></a></li>
+            <li><a href="#products" class="hover:text-white"><span class="lang-zh">产品中心</span><span class="lang-en">Products</span></a></li>
+            <li><a href="#applications" class="hover:text-white"><span class="lang-zh">工程应用</span><span class="lang-en">Applications</span></a></li>
+            <li><a href="#contact" class="hover:text-white"><span class="lang-zh">联系我们</span><span class="lang-en">Contact</span></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4"><span class="lang-zh">联系我们</span><span class="lang-en">Contact</span></h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li>Shandong Zibo, China</li>
+            <li>138-0000-0000</li>
+            <li>sales@magnummetals.com</li>
+            <li>FOB / EXW / CIF Available</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-xs text-gray-500">© 2026 Magnum Metal. All rights reserved.</p>
+        <p class="text-xs text-gray-500">Aluminum Magnesium Manganese Coil / Standing Seam Panel / Prepainted Aluminum Coil</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 语言切换逻辑
+    let isZh = true;
+    function switchLang() {
+      isZh = !isZh;
+      const zhDom = document.querySelectorAll('.lang-zh');
+      const enDom = document.querySelectorAll('.lang-en');
+      const langText = document.getElementById('langText');
+      const mobileLangText = document.getElementById('mobileLangText');
+      if(isZh){
+        zhDom.forEach(el=>el.style.display="block");
+        enDom.forEach(el=>el.style.display="none");
+        langText.innerText = "English";
+        mobileLangText.innerText = "English";
+        document.documentElement.lang="zh-CN";
+      }else{
+        zhDom.forEach(el=>el
